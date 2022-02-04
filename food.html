@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="../css/food.css">
+    <link rel="icon" href="../images/webicon.png" type="image/x-icon">
+    <script src="../js/food.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <!-- Defining the header section of the page -->
+
+        <header>
+
+            <!-- Defining the navigation menu -->
+
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="contact us.html" target="_blank">Contact us</a></li>
+                    <li><a href="aboutus.html" target="_blank">About</a></li>
+					<li><a href="signin.php" target="_blank">Log in & Register</a></li>
+                    </ul>
+            </nav>
+
+            <!-- Defining the top head element -->
+
+            <div class="top_head">
+
+                <!-- Defining the logo element -->
+
+                <div class="logo">
+
+                        <img src="../images/sample.png" title="M-Shop template" alt="M-Shop template" />
+                    </a>
+                </div>
+
+                <section id="search"><!-- Search form -->
+                    <form action="#" onsubmit="return false;" method="get">
+                        <input type="text" onfocus="if (this.value =='Search..' ) this.value=''" onblur="if (this.value=='') this.value='Search..'" value="Search.." name="q">
+                        <input type="submit" value="Search">
+                    </form>
+
+                  
+                </section>
+            </div>
+
+            <!-- Defining the sub menu -->
+
+            <div id="submenu">
+                <ul>
+                    <li><a href="#">Food Category </a></li>
+                    <li><a href="Clothes.html" target="_blank">Clothes Category </a></li>
+                    <li><a href="Electronics.html" target="_blank">Electronics Category </a></li>
+                    <li><a href="Movie.html" target="_blank">Movie Category </a></li>
+                    <li><a href="HouseDecoration.html" target="_blank">House Decoration Category </a></li>
+                    <li><a href="Accessories.html" target="_blank">Accsessories Category </a></li>
+                </ul>
+            </div>
+
+        </header>
+
+                <!-- Defining submain content section -->
+
+                <div id="main">
+
+                    <!-- Defining the content section #2 -->
+
+                    <section id="content">
+                        <div id="left">
+                            <h3>Last products</h3>
+                            <ul>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/roast.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Roast Chicken </a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$20.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup()" id="btn">Info</a>
+                                            <div class="popup" id="popup">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                                                  <h1>Roast Chicken</h1>
+                                                  <h6>
+                                                    Ingredients: <br>
+                                                    1 (5 to 6 pound) roasting chicken <br>
+                                                    Kosher salt <br>
+                                                    Freshly ground black pepper <br>
+                                                    1 Large bunch fresh thyme, plus 20 sprigs <br>
+                                                    1 Lemon, halved <br>
+                                                    1 Head garlic, cut in half corsswise <br>
+                                                    2 Tablespoons (1/4 stick) butter, melted <br>
+                                                    1 Large yellow onion, thickly sliced <br>
+                                                    4 Carrots cut into 2-inch chunks <br>
+                                                    1 Bulb of fennel, tops removed, and cut into wedges <br>
+                                                    Olive oil
+                                                  </h6>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/chick1.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Fried Chicken</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$15.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup1()" id="btn">Info</a>
+                                            <div class="popup" id="popup-1">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup1()">&times;</div>
+                                                  <h1>Fried Chicken</h1>
+                                                  <h6>
+                                                    Ingredients: <br>
+                                                    2 whole free-range, organic chickens <br>
+                                                    Vegetable oil of choice, for frying the chicken <br>
+                                                    6 cups all-purpose flour <br>
+                                                    5 tablespoons salt <br>
+                                                    4 tablespoons ground black pepper <br>
+                                                    2 tablespoons garlic powder <br>
+                                                    1 tablespoon onion powder <br>
+                                                    2 teaspoons cayenne pepper <br>
+                                                    2 cups buttermilk <br>
+                                                  </h6>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/fresh.webp"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Tomatos</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$10.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup2()" id="btn">Info</a>
+                                            <div class="popup" id="popup-2">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                                                  <h1>Tomatos</h1>
+                                                  <h2>
+                                                      <br>
+                                                      Fresh tomatoes directly from farm!! <br>
+                                                      Get your food ready and fresh now.
+                                                  </h2>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/chick.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Baked Chicken</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$9.99</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup3()" id="btn">Info</a>
+                                            <div class="popup" id="popup-3">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                                                  <h1>Baked Chicken</h1>
+                                                  <h6>
+                                                    Ingredients: <br>
+                                                    2 cups buttermilk <br>
+                                                    Juice of 1/2 lemon <br>
+                                                    1 tablespoon hot sauce <br>
+                                                    1/2 yellow onion, sliced <br>
+                                                    5 sprigs fresh thyme <br>
+                                                    3 cloves garlic, smashed <br>
+                                                    Kosher salt and freshly ground black pepper <br>
+                                                    1 (3 pound) chicken cut into 8 pieces, rinsed and patted dry <br>
+                                                    2 cups crushed corn flakes <br>
+                                                    3/4 cup grated Parmesan cheese <br>
+                                                    2 teaspoons chopped fresh thyme
+                                                  </h6>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/quickbites.webp"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Perfect Burger</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$5.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup4()" id="btn">Info</a>
+                                            <div class="popup" id="popup-4">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                                                  <h1>Perfect Burger</h1>
+                                                  <h5>
+                                                    <br>
+                                                    Ingredients: <br>
+                                                    1 1/2 pounds ground chuck (80 percent lean) or ground turkey (90 percent lean) <br>
+                                                    Kosher salt and freshly ground black pepper <br>
+                                                    1 1/2 tablespoons canola oil <br>
+                                                    4 slices cheese (optional) <br>
+                                                    4 hamburger buns, split; toasted, if desired <br>
+                                                  </h5>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/pizza.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Our Pizza Speciality</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$25.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup5()" id="btn">Info</a>
+                                            <div class="popup" id="popup-5">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup5()">&times;</div>
+                                                  <h1>Our Pizza Speciality</h1>
+                                                  <h6>
+                                                    Ingredients: <br>
+                                                    1 teaspoon extra-virgin olive oil, plus more for brushing <br>
+                                                    1/2 pound prepared pizza dough, at room temperature <br>
+                                                    1/3 cup plus 2 tablespoons dark barbecue sauce <br>
+                                                    1 8-ounce skinless, boneless chicken breast <br>
+                                                    Kosher salt and freshly ground pepper <br>
+                                                    2/3 cup grated smoked gouda cheese (about 3 ounces) <br>
+                                                    2/3 cup grated part-skim mozzarella cheese (about 3 ounces) <br>
+                                                    1/2 small red onion, thinly sliced <br>
+                                                    Fresh cilantro, for topping <br>
+                                                  </h6>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/meat.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Steak</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$30.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup6()" id="btn">Info</a>
+                                            <div class="popup" id="popup-6">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup6()">&times;</div>
+                                                  <h1>Steak</h1>
+                                                  <h6>
+                                                      <br>
+                                                    Ingredients: <br>
+                                                    4 1 1/4-to-1 1/2-inch-thick boneless rib-eye or New York stri
+                                                    steaks (about 12 ounces each) or filets mignons
+                                                    (8 to 10 ounces each), trimmed <br>
+                                                    2 tablespoons canola or extra-virgin olive oil <br>
+                                                    Kosher salt and freshly ground pepper <br>
+                                                  </h6>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/tables.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Fresh Vegetables</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$10.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup7()" id="btn">Info</a>
+                                            <div class="popup" id="popup-7">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                                                  <h1>Fresh Vegetables</h1>
+                                                  <h6>
+                                                    Ingredients: <br>
+                                                    1/2 cup olive oil <br>
+                                                    1/4 cup white wine vinegar <br>
+                                                    1 tablespoon Italian seasoning <br>
+                                                    1 tablespoon Dijon mustard <br>
+                                                    1 tablespoon minced garlic <br>
+                                                    3/4 teaspoon salt <br>
+                                                    1/2 teaspoon sugar <br>
+                                                    1/2 teaspoon ground black pepper <br>
+                                                    3 cups cauliflower florets <br>
+                                                    2 cups cherry tomatoes <br>
+                                                    1 cup bottled cherry peppers, halved <br>
+                                                    3 medium zucchini, cut into bite-size pieces <br>
+                                                    3 carrots, peeled and cut into bite-size pieces <br>
+                                                    1 small onion, thinly sliced
+                                                  </h6>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/vege.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Medley Vegetable</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$9.99</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup8()" id="btn">Info</a>
+                                            <div class="popup" id="popup-8">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup8()">&times;</div>
+                                                  <h1>Medley Vegetable</h1>
+                                                  <h6>
+                                                    <br>
+                                                    Ingredients: <br>
+                                                    4 cups mixed blanched and refreshed vegetables, such as broccoli
+                                                    florets, cauliflower florets, carrot rounds, green beans, or
+                                                    radish quarters, procedure follows <br>
+                                                    2 tablespoons unsalted butter <br>
+                                                    2 tablespoons water <br>
+                                                    Kosher salt, freshly ground black pepper <br>
+                                                  </h6>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Page footer -->
+
+                <footer>
+                    <div id="privacy">
+                        <p>M-Shop © 2020</p></div>
+                </footer>
+    </div>
+</body>
+</html>

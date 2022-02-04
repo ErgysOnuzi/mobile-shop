@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes</title>
+    <link rel="stylesheet" href="../css/Clothes.css">
+    <link rel="icon" href="../images/webicon.png" type="image/x-icon">
+    <script src="../js/clothes.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <!-- Defining the header section of the page -->
+
+        <header>
+
+            <!-- Defining the navigation menu -->
+
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                   
+                   
+                    <li><a href="contact us.html">Contact us</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+					<li><a href="signin.html" target="_blank">Log in & Register</a></li>
+                    </ul>
+            </nav>
+
+            <!-- Defining the top head element -->
+            
+            <div class="top_head">
+
+                <!-- Defining the logo element -->
+
+                <div class="logo">
+                   
+                        <img src="../images/sample.png" title="M-Shop template" alt="M-Shop template" />
+                    </a>
+                </div>
+
+                <section id="search"><!-- Search form -->
+                    <form action="#" onsubmit="return false;" method="get">
+                        <input type="text" onfocus="if (this.value =='Search..' ) this.value=''" onblur="if (this.value=='') this.value='Search..'" value="Search.." name="q">
+                        <input type="submit" value="Search">
+                    </form>
+
+                  
+                </section>
+            </div>
+
+            <!-- Defining the sub menu -->
+
+            <div id="submenu">
+                <ul>
+                    <li><a href="food.html" target="_blank">Food Category </a></li>
+                    <li><a href="#">Clothes Category </a></li>
+                    <li><a href="Electronics.html" target="_blank">Electronics Category </a></li>
+                    <li><a href="Movie.html" target="_blank">Movie Category </a></li>
+                    <li><a href="HouseDecoration.html" target="_blank">House Decoration Category </a></li>
+                    <li><a href="Accessories.html" target="_blank">Accsessories Category </a></li>
+                </ul>
+            </div>
+
+        </header>
+
+                <!-- Defining submain content section -->
+
+                <div id="main">
+
+                    <!-- Defining the content section #2 -->
+        
+                    <section id="content">
+                        <div id="left">
+                            <h3>Last products</h3>
+                            <ul>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/T-Shirt.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Adidas T-Shirt</a>
+                                        <p>Simple T-Shirt, for hot summers</p>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$100.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup()" id="btn">Info</a>
+                                            <div class="popup" id="popup">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                                                  <h1>Adidas T-Shirt</h1>
+                                                  <h3>
+                                                    Company: Adidas
+                                                    <br>
+                                                    <br>
+                                                    Type: T-Shirt
+                                                    <br>
+                                                    <br>
+                                                    Imported for: Kosovo
+                                                    <br>
+                                                    <br>
+                                                    Stock: Available
+                                                    <br>
+                                                    <br>
+                                                    Grab yours now, dont't waste your time!!
+                                                  </h3>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Pants.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Winter Alpine Pants</a>
+                                        <p>Cool looking a stylish pants for men</p>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$90.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup1()" id="btn">Info</a>
+                                            <div class="popup" id="popup-1">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup1()">&times;</div>
+                                                  <h1>Alpine Pants</h1>
+                                                  <h3>
+                                                    Company: Unknown
+                                                    <br>
+                                                    <br>
+                                                    Type: Pants (Man)
+                                                    <br>
+                                                    <br>
+                                                    Imported for: Kosovo
+                                                    <br>
+                                                    <br>
+                                                    Stock: Available
+                                                    <br>
+                                                    <br>
+                                                    Grab yours now, dont't waste your time!!
+                                                  </h3>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Outfit.png"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Formal Outfit</a>
+                                        <p>Formal outfit for serious men</p>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$300.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup2()" id="btn">Info</a>
+                                            <div class="popup" id="popup-2">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                                                  <h1>Formal Dress</h1>
+                                                  <h3>
+                                                    Company: Unknown
+                                                    <br>
+                                                    <br>
+                                                    Type: Formal dress
+                                                    <br>
+                                                    <br>
+                                                    Imported for: Kosovo
+                                                    <br>
+                                                    <br>
+                                                    Stock: Available
+                                                    <br>
+                                                    <br>
+                                                    Grab yours now, dont't waste your time!!
+                                                  </h3>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Hoodie.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Hoodie (for Men)</a>
+                                        <p>We like to keep our costumers warm, here's a stylish and warm Hoodie</p>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$80.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup3()" id="btn">Info</a>
+                                            <div class="popup" id="popup-3">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                                                  <h1>Hoodie</h1>
+                                                  <h3>
+                                                    Company: HUGO BOSS
+                                                    <br>
+                                                    <br>
+                                                    Type: Hoodie (Men)
+                                                    <br>
+                                                    <br>
+                                                    Imported for: Kosovo
+                                                    <br>
+                                                    <br>
+                                                    Stock: Available
+                                                    <br>
+                                                    <br>
+                                                    Grab yours now, dont't waste your time!!
+                                                  </h3>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Hoodie2.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Hoodie (for Girls)</a>
+                                        <p>We check our costumers no matter the gender! Here's a warm Hoodie for women</p>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$80.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup4()" id="btn">Info</a>
+                                            <div class="popup" id="popup-4">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                                                  <h1>Hoodie</h1>
+                                                  <h3>
+                                                    Company: HUGO BOSS
+                                                    <br>
+                                                    <br>
+                                                    Type: Hoodie (Girls)
+                                                    <br>
+                                                    <br>
+                                                    Imported for: Kosovo
+                                                    <br>
+                                                    <br>
+                                                    Stock: Available
+                                                    <br>
+                                                    <br>
+                                                    Grab yours now, dont't waste your time!!
+                                                  </h3>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/jeans.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Jeans</a>
+                                        <p>New jeans to keep girls in fashion!</p>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$100.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup5()" id="btn">Info</a>
+                                            <div class="popup" id="popup-5">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup5()">&times;</div>
+                                                  <h1>Jeans</h1>
+                                                  <h3>
+                                                    Company: HUGO BOSS
+                                                    <br>
+                                                    <br>
+                                                    Type: Jeans (Girls)
+                                                    <br>
+                                                    <br>
+                                                    Imported for: Kosovo
+                                                    <br>
+                                                    <br>
+                                                    Stock: Available
+                                                    <br>
+                                                    <br>
+                                                    Grab yours now, dont't waste your time!!
+                                                  </h3>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Shirt.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Shirt (for men)</a>
+                                        <p>If you like to look and feel cool we recomend our shirts!</p>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$90.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup6()" id="btn">Info</a>
+                                            <div class="popup" id="popup-6">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup6()">&times;</div>
+                                                  <h1>Shirt</h1>
+                                                  <h3>
+                                                    Company: Unknown
+                                                    <br>
+                                                    <br>
+                                                    Type: Shirt (Men)
+                                                    <br>
+                                                    <br>
+                                                    Imported for: Kosovo
+                                                    <br>
+                                                    <br>
+                                                    Stock: Available
+                                                    <br>
+                                                    <br>
+                                                    Grab yours now, dont't waste your time!!
+                                                  </h3>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Shirt2.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Shirt (for women)</a>
+                                        <p>Don't worry women's we got your back! Check these shirts for women.</p>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$60.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup7()" id="btn">Info</a>
+                                            <div class="popup" id="popup-7">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                                                  <h1>Shirt</h1>
+                                                  <h3>
+                                                    Company: Unknown
+                                                    <br>
+                                                    <br>
+                                                    Type: Shirt (Girls)
+                                                    <br>
+                                                    <br>
+                                                    Imported for: Kosovo
+                                                    <br>
+                                                    <br>
+                                                    Stock: Available
+                                                    <br>
+                                                    <br>
+                                                    Grab yours now, dont't waste your time!!
+                                                  </h3>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Dress.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Dress (for girls)</a>
+                                        <p>Got any special meeting! We got your back with these luxury dresses</p>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$120.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup8()" id="btn">Info</a>
+                                            <div class="popup" id="popup-8">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup8()">&times;</div>
+                                                  <h1>Dress</h1>
+                                                  <h3>
+                                                    Company: Unknown
+                                                    <br>
+                                                    <br>
+                                                    Type: Dress (Girls)
+                                                    <br>
+                                                    <br>
+                                                    Imported for: Kosovo
+                                                    <br>
+                                                    <br>
+                                                    Stock: Available
+                                                    <br>
+                                                    <br>
+                                                    Grab yours now, dont't waste your time!!
+                                                  </h3>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Page footer -->
+
+                <footer>
+                    <div id="privacy">
+                        <p>M-Shop © 2020</p></div>
+                </footer>
+    </div>
+</body>
+</html>

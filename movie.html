@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="../css/Movie.css">
+    <link rel="icon" href="../images/webicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/Movie.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <!-- Defining the header section of the page -->
+
+        <header>
+
+            <!-- Defining the navigation menu -->
+
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="contact us.html">Contact us</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+					<li><a href="signin.html" target="_blank">Log in & Register</a></li>
+                    </ul>
+            </nav>
+
+            <!-- Defining the top head element -->
+            
+            <div class="top_head">
+
+                <!-- Defining the logo element -->
+
+                <div class="logo">
+                   
+                        <img src="../images/sample.png" title="M-Shop template" alt="M-Shop template" />
+                    </a>
+                </div>
+
+                <section id="search"><!-- Search form -->
+                    <form action="#" onsubmit="return false;" method="get">
+                        <input type="text" onfocus="if (this.value =='Search..' ) this.value=''" onblur="if (this.value=='') this.value='Search..'" value="Search.." name="q">
+                        <input type="submit" value="Search">
+                    </form>
+
+                  
+                </section>
+            </div>
+
+            <!-- Defining the sub menu -->
+
+            <div id="submenu">
+                <ul>
+                    <li><a href="food.html" target="_blank">Food Category </a></li>
+                    <li><a href="Clothes.html"target="_blank">Clothes Category </a></li>
+                    <li><a href="Electronics.html" target="_blank">Electronics Category </a></li>
+                    <li><a href="Movie.html">Movie Category </a></li>
+                    <li><a href="HouseDecoration.html" target="_blank">House Decoration Category </a></li>
+                    <li><a href="Accessories.html" target="_blank">Accsessories Category </a></li>
+                </ul>
+            </div>
+
+        </header>
+
+                <!-- Defining submain content section -->
+
+                <div id="main">
+
+                    <!-- Defining the content section #2 -->
+        
+                    <section id="content">
+                        <div id="left">
+                            <h3>Last products</h3>
+                            <ul>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Movie1.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">The Invisible Man (HORROR)</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$10.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup()" id="btn">Info</a>
+                                            <div class="popup" id="popup">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                                                  <h1>The Invisible Man</h1>
+                                                  <p>
+                                                    After staging his own suicide, a crazed scientist uses his power
+                                                    to become invisible to stalk and terrorize his ex-girlfriend. When
+                                                    the police refuse to believe her story, she decides to take matters
+                                                    into her own hands and fight back.
+                                                    <br>
+                                                    <br>
+                                                    Release date: February 24, 2020 (USA)
+                                                    <br>
+                                                    <br>
+                                                    Director: Leigh Whannell
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Movie2.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Extraction (ACTION)</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$15.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup1()" id="btn">Info</a>
+                                            <div class="popup" id="popup-1">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup1()">&times;</div>
+                                                  <h1>Extraction</h1>
+                                                  <p>
+                                                    A black-market mercenary who has nothing to lose is hired to rescue
+                                                    the kidnapped son of an imprisoned international crime lord. But in
+                                                    the murky underworld of weapons dealers and drug traffickers, an
+                                                    already deadly mission approaches the impossible.
+                                                    <br>
+                                                    <br>
+                                                    Initial release: April 24, 2020
+                                                    <br>
+                                                    <br>
+                                                    Director: Sam Hargrave
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Movie3.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Godzilla vs Kong (ACTION)</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$15.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup2()" id="btn">Info</a>
+                                            <div class="popup" id="popup-2">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                                                  <h1>Godzilla vs Kong</h1>
+                                                  <p>
+                                                    Fearsome monsters Godzilla and King Kong square off in an epic battle
+                                                    for the ages, while humanity looks to wipe out both of the creatures
+                                                    and take back the planet once and for all.
+                                                    <br>
+                                                    <br>
+                                                    Release date: November 20, 2020 (USA)
+                                                    <br>
+                                                    <br>
+                                                    Director: Adam Wingard
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Movie4.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Uncorked (DRAMA)</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$20.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup3()" id="btn">Info</a>
+                                            <div class="popup" id="popup-3">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                                                  <h1>Uncorked</h1>
+                                                  <p>
+                                                    A young man upsets his father when he pursues his dream of becoming
+                                                    a master sommelier instead of joining the family barbecue business.
+                                                    <br>
+                                                    <br>
+                                                    Initial release: March 27, 2020
+                                                    <br>
+                                                    <br>
+                                                    Director: Prentice Penny
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Movie5.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Lost Girls (DRAMA)</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$10.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup4()" id="btn">Info</a>
+                                            <div class="popup" id="popup-4">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                                                  <h1>Lost Girls</h1>
+                                                  <p>
+                                                    Determined to find her missing daughter, a desperate woman launches
+                                                    a personal investigation that leads police to the unsolved cases of
+                                                    murdered sex workers.
+                                                    <br>
+                                                    <br>
+                                                    Initial release: January 28, 2020
+                                                    <br>
+                                                    <br>
+                                                    Director: Liz Garbus
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Movie6.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Underwater (HORROR)</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$15.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup5()" id="btn">Info</a>
+                                            <div class="popup" id="popup-5">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup5()">&times;</div>
+                                                  <h1>Underwater</h1>
+                                                  <p>
+                                                    Disaster strikes more than six miles below the ocean surface when
+                                                    water crashes through the walls of a drilling station. Led by their
+                                                    captain, the survivors realize that their only hope is to walk
+                                                    across the sea floor to reach the main part of the facility. But
+                                                    they soon find themselves in a fight for their lives when they come
+                                                    under attack from mysterious and deadly creatures that no one has ever seen.
+                                                    <br>
+                                                    <br>
+                                                    Release date: January 10, 2020 (USA)
+                                                    <br>
+                                                    <br>
+                                                    Director: William Eubank
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Movie7.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Onward (COMEDY)</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$10.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup6()" id="btn">Info</a>
+                                            <div class="popup" id="popup-6">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup6()">&times;</div>
+                                                  <h1>Onward</h1>
+                                                  <p>
+                                                    Teenage elf brothers Ian and Barley embark on a magical quest to
+                                                    spend one more day with their late father. Like any good adventure,
+                                                    their journey is filled with cryptic maps, impossible obstacles and
+                                                    unimaginable discoveries. But when dear Mom finds out her sons are
+                                                    missing, she teams up with the legendary manticore to bring her
+                                                    beloved boys back home.
+                                                    <br>
+                                                    <br>
+                                                    Release date: March 6, 2020 (USA)
+                                                    <br>
+                                                    <br>
+                                                    Director: Dan Scanlon
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Movie8.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Emma. (ROMANCE)</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$15.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup7()" id="btn">Info</a>
+                                            <div class="popup" id="popup-7">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                                                  <h1>Emma</h1>
+                                                  <p>
+                                                    Following the antics of a young woman, Emma Woodhouse, who lives in
+                                                    Georgian- and Regency-era England and occupies herself with
+                                                    matchmaking - in sometimes misguided, often meddlesome fashion- in
+                                                    the lives of her friends and family.
+                                                    <br>
+                                                    <br>
+                                                    Release date: February 21, 2020 (USA)
+                                                    <br>
+                                                    <br>
+                                                    Director: Autumn de Wilde
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/Movie9.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Fantasy Island (HORROR)</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$20.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup8()" id="btn">Info</a>
+                                            <div class="popup" id="popup-8">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup8()">&times;</div>
+                                                  <h1>Fantasy Island</h1>
+                                                  <p>
+                                                    The enigmatic Mr Roarke makes the secret dreams of his lucky guests
+                                                    come true at a luxurious but remote tropical resort, but when the
+                                                    fantasies turn into nightmares, the guests have to solve the island's
+                                                    mystery in order to escape with their lives.
+                                                    <br>
+                                                    <br>
+                                                    Release date: February 14, 2020 (USA)
+                                                    <br>
+                                                    <br>
+                                                    Director: Jeff Wadlow
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Page footer -->
+
+                <footer>
+                    <div id="privacy">
+                        <p>M-Shop © 2020</p></div>
+                </footer>
+    </div>
+</body>
+</html>

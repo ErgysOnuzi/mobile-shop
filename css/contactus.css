@@ -1,0 +1,111 @@
+/*navigation menu*/
+
+nav {
+  background-color:#00942f;
+  overflow: hidden;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  color: #FFFFFF;
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+  padding: 4px 10px 4px 11px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav ul li a:hover, nav ul li.selected a {
+  background: none repeat scroll 0 0 #353535;
+}
+#submenu {
+  background: -moz-linear-gradient(#ffffff, #f6f6f6); /* FF 3.6+ */
+  background: -ms-linear-gradient(#ffffff, #f6f6f6); /* IE10 */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f6f6f6)); /* Safari 4+, Chrome 2+ */
+  background: -webkit-linear-gradient(#ffffff, #f6f6f6); /* Safari 5.1+, Chrome 10+ */
+  background: -o-linear-gradient(#ffffff, #f6f6f6); /* Opera 11.10 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6'); /* IE6 & IE7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6')"; /* IE8+ */
+  background: linear-gradient(#ffffff, #f6f6f6); /* the standard */
+  border: 1px solid #E0E0E0;
+  height: 34px;
+  margin: 20px 40px;
+}
+#submenu ul {
+  margin: 0;
+  padding: 0;
+}
+#submenu li {
+  float: left;
+  line-height: 1em;
+  list-style: none outside none;
+  margin: 0;
+  position: relative;
+}
+#submenu li a {
+  background: url("#") no-repeat scroll 0 9px transparent;
+  border-right: 1px solid #E0E0E0;
+  color: #383838;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  margin: 0 0 0 19px;
+  padding: 9px 18px 11px 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#submenu li a:hover {
+  background-image: url("#");
+}
+
+/* CSS for Contact */
+
+body {font-family: Arial, Helvetica, sans-serif;
+    background-image: url("logo.png"), url("logo.png");
+    background-color: #cccccc;
+    background-image:no-repeat;
+  }
+  * {box-sizing: border-box;}
+  
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+   background-image: url("#"), url("#");
+    background-color: #cccccc;
+    background-image:no-repeat;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }

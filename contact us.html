@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/contactus.css">
+</head>
+<body>
+
+    <!-- Defining the navigation menu -->
+
+    <nav>
+        <ul>
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li class="selected"><a href="contact us.html">Contact us</a></li>
+            <li><a href="aboutus.html" target="_blank">About</a></li>
+            <li><a href="signin.php" target="_blank">Log in & Register</a></li>
+            </ul>
+    </nav>
+  
+  <!-- Contact form -->
+
+    <h3>Contact Form</h3>
+
+    <div class="container">
+      <form action="#">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+            <textarea id="subject" name="subject" placeholder="Write your country. " style="height:50px"></textarea>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="button" onclick="window.location.href = 'cofee.html';" value="Submit">
+      </form>
+    </div>
+
+</body>
+</html>

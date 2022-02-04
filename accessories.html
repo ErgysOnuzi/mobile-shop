@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessoires</title>
+    <link rel="stylesheet" href="../css/Accessories.css">
+    <link rel="icon" href="../images/webicon.png" type="image/x-icon">
+    <script src="../js/accessories.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <!-- Defining the header section of the page -->
+
+        <header>
+
+            <!-- Defining the navigation menu -->
+
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="contact us.html" target="_blank">Contact us</a></li>
+                    <li><a href="aboutus.html" target="_blank">About</a></li>
+					<li><a href="signin.php" target="_blank">Log in & Register</a></li>
+                    </ul>
+            </nav>
+
+            <!-- Defining the top head element -->
+            
+            <div class="top_head">
+
+                <!-- Defining the logo element -->
+
+                <div class="logo">
+                   
+                        <img src="../images/sample.png" title="M-Shop template" alt="M-Shop template" />
+                    </a>
+                </div>
+
+                <section id="search"><!-- Search form -->
+                    <form action="#" onsubmit="return false;" method="get">
+                        <input type="text" onfocus="if (this.value =='Search..' ) this.value=''" onblur="if (this.value=='') this.value='Search..'" value="Search.." name="q">
+                        <input type="submit" value="Search">
+                    </form>
+
+                  
+                </section>
+            </div>
+
+            <!-- Defining the sub menu -->
+
+            <div id="submenu">
+                <ul>
+                    <li><a href="food.html" target="_blank">Food Category </a></li>
+                    <li><a href="Clothes.html" target="_blank">Clothes Category </a></li>
+                    <li><a href="Electronics.html" target="_blank">Electronics Category </a></li>
+                    <li><a href="Movie.html" target="_blank">Movie Category </a></li>
+                    <li><a href="HouseDecoration.html" target="_blank">House Decoration Category </a></li>
+                    <li><a href="#">Accsessories Category </a></li>
+                </ul>
+            </div>
+
+        </header>
+
+                <!-- Defining submain content section -->
+
+                <div id="main">
+
+                    <!-- Defining the content section #2 -->
+        
+                    <section id="content">
+                        <div id="left">
+                            <h3>Last products</h3>
+                            <ul>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/acc1.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Charger (Iphone)</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$5.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup()" id="btn">Info</a>
+                                            <div class="popup" id="popup">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                                                  <h1>Charger</h1>
+                                                  <h2>
+                                                    <br>
+                                                    Fast charger for Iphones <br>
+                                                    Free transport!!
+                                                  </h2>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/acc2.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Speaker</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$6.99</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup1()" id="btn">Info</a>
+                                            <div class="popup" id="popup-1">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup1()">&times;</div>
+                                                  <h1>Speaker (Red)</h1>
+                                                  <h2>
+                                                    <br>
+                                                    Speaker to enjoy the music more. <br>
+                                                    Get yours now!!
+                                                  </h2>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/acc3.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Phone Case</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$9.99</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup2()" id="btn">Info</a>
+                                            <div class="popup" id="popup-2">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                                                  <h1>Phone Case (Iphones)</h1>
+                                                  <h2>
+                                                    <br>
+                                                    Amazing case that keeps your phone safe. <br>
+                                                    Buy it and save your phone now!
+                                                  </h2>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/acc4.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">VR Set</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$100.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup3()" id="btn">Info</a>
+                                            <div class="popup" id="popup-3">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                                                  <h1>VR</h1>
+                                                  <h2>
+                                                    <br>
+                                                    Enjoy your games now with this VR Set. <br>
+                                                    Bring your games to real life!!
+                                                  </h2>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/acc5.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Skin (Iphone)</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$15.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup4()" id="btn">Info</a>
+                                            <div class="popup" id="popup-4">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                                                  <h1>Skin</h1>
+                                                  <h2>
+                                                    <br>
+                                                    Make your phone look cooler with these skins <br>
+                                                    Eveyone will be jealous about them. <br>
+                                                    Grab yours now!!
+                                                  </h2>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/acc6.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Screen Protection</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$5.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup5()" id="btn">Info</a>
+                                            <div class="popup" id="popup-5">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup5()">&times;</div>
+                                                  <h1>Screen Protection</h1>
+                                                  <h2>
+                                                    <br>
+                                                    Protect your screen from scratches or <br>
+                                                    dirt that may make ur screen scratches. <br>
+                                                    Grab yours now!!
+                                                  </h2>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/acc7.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Phone Case (Advanced)</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$25.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup6()" id="btn">Info</a>
+                                            <div class="popup" id="popup-6">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup6()">&times;</div>
+                                                  <h1>Phone Case</h1>
+                                                  <h2>
+                                                    <br>
+                                                    Grab this all new advaced phone case <br>
+                                                    for an affordable price <br>
+                                                    Get it now 
+                                                  </h2>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/acc8.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Multiple Carger</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$10.00</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup7()" id="btn">Info</a>
+                                            <div class="popup" id="popup-7">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                                                  <h1>Multiple Charger (Head)</h1>
+                                                  <h4>
+                                                    <br>
+                                                    We all know how hard is to have multiple <br>
+                                                    chargers, with this accessorie we got you covered. <br>
+                                                    Grab yours since you are on time!!
+                                                  </h4>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img"><a href="#"><img alt="" src="../images/acc9.jpg"></a></div>
+                                    <div class="info">
+                                        <a class="title" href="#">Phone Holder</a>
+                                        <div class="price">
+                                            <span class="st">Our price:</span><strong>$7.99</strong>
+                                        </div>
+                                        <div class="actions">
+                                            <a onclick="togglePopup8()" id="btn">Info</a>
+                                            <div class="popup" id="popup-8">
+                                                <div class="overlay"></div>
+                                                <div class="content">
+                                                  <div class="close-btn" onclick="togglePopup8()">&times;</div>
+                                                  <h1>Phone Holder</h1>
+                                                  <h4>
+                                                    <br>
+                                                    <br>
+                                                    Tired of having to hold your phone for navigation?! <br>
+                                                    WE hot you covered with these Phone Holders. <br>
+                                                    Get yours!!
+                                                  </h4>
+                                                </div>
+                                              </div>
+                                            <a href="order.html">Order here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Page footer -->
+
+                <footer>
+                    <div id="privacy">
+                        <p>M-Shop © 2020</p></div>
+                </footer>
+    </div>
+</body>
+</html>
